@@ -1,8 +1,10 @@
 <script setup>
-import Popular from './components/Popular.vue';
+import Popular from './Popular.vue';
+import ListaJuegos from './ListaJuegos.vue';
 </script>
 
 <template>
+    <div class="row">
     <!-- Inicio del col-md-6 para los juegos mas populares -->
     <div class="col-md-6">
         <div class="card mt">
@@ -46,11 +48,16 @@ import Popular from './components/Popular.vue';
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Final del col-md-6 para los juegos mas populares -->
-     <div>
+        <!-- Inicio del archivo de lista de compras -->
         <Popular/>
-     </div>
+    </div>
+    <!-- Fin del col-md-6 -->
+    
+    <!-- inicio de col-md-6 de la lista de juegos -->
+        <ListaJuegos/>
+        <!-- fin de col-md-6 de la lista de juegos -->
+
+    </div>
 </template>
 
 <style scoped></style>

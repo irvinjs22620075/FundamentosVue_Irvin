@@ -3,8 +3,8 @@
 <template>
  <!-- Inicio de la tabla principal -->
  <br>
- <div class="row">
-      <div class="col-md-6">
+ <div>
+      <div class="col-md-12">
         <div class="card mt">
           <div style="background-color:#E94560;" class="card-header">
             <h2 style="color: beige; font-size: 40px; font-family: 'Open Sans', sans-serif; text-transform: uppercase; letter-spacing: 3px; text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);">
