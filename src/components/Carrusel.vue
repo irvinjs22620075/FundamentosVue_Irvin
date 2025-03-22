@@ -1,4 +1,5 @@
 <script setup>
+import Popular from './components/Popular.vue';
 </script>
 
 <template>
@@ -47,6 +48,9 @@
         </div>
     </div>
     <!-- Final del col-md-6 para los juegos mas populares -->
+     <div>
+        <Popular/>
+     </div>
 </template>
 
 <style scoped></style>

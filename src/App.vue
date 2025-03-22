@@ -11,8 +11,8 @@ import Carrusel from './components/Carrusel.vue';
   <Navbar/>
  </div>
  <Bootstrap/>
-
-    <Carrusel/>
+ <Carrusel/>
+ 
 </template>
 
 <style scoped>
